@@ -9,10 +9,8 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody rb;
 
     public const float speedScale = 20f,
-                    jumpForce = 10f,
+                    jumpForce = 7f,
                     turnSpeed = 200f;
-
-    public int test;
 
     private float mouseX = 0f,
                   mouseY = 0f,
